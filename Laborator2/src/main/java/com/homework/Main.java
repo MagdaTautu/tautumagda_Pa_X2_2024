@@ -43,7 +43,7 @@ public class Main {
         problem.addDepot(depot2);
 
 
-       /* Vehicle[] allVehicles = problem.getVehicles();
+        Vehicle[] allVehicles = problem.getVehicles();
         System.out.println("All vehicles:");
         for (Vehicle vehicle : allVehicles) {
             if (vehicle instanceof Truck) {
@@ -52,7 +52,7 @@ public class Main {
             else if (vehicle instanceof Drone) {
                 System.out.println("Drone: " + vehicle.getVehicleName() + ", Flight Duration: " + ((Drone) vehicle).getDuration() + ", Depot: " + vehicle.getDepot());
             }
-        }*/
+        }
         List<Vehicle> vehicles = Arrays.asList(truck1, truck2);
         List<Client> clients = generateRandomClients();
 
@@ -61,7 +61,7 @@ public class Main {
         allocateClients(clients, vehicles, relation);
 
         for (Map.Entry<Client, Vehicle> entry : relation.entrySet()) {
-            System.out.println("Client: " + entry.getKey().getName() + " allocated to Vehicle: " + entry.getValue().getVehicleName() );
+            System.out.println(entry.getKey().getName() + " allocated to Vehicle: " + entry.getValue().getVehicleName() );
         }
     }
 }
