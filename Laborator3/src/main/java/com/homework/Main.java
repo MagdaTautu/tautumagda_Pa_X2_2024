@@ -26,7 +26,7 @@ public class Main {
 
         Statue statue = new Statue("Statue");
         Church church = new Church("Church", churchTimetable);
-        Concert concert = new Concert("Concert", concertTimetable, 25.0);
+        Concert concert = new Concert("Concert", concertTimetable, 18.0);
 
 
         trip.addAttraction(church);
