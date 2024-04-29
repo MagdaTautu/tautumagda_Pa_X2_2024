@@ -1,6 +1,5 @@
 package org.example;
 
-
 public class Token {
     private int number1;
     private int number2;

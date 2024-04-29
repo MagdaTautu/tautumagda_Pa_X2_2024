@@ -1,16 +1,20 @@
 package org.example;
 
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.LinkedBlockingQueue;
 
 public class Main {
     public static void main(String[] args) {
         int n = 10;
         int nrPlayers = 2;
-        String[] players = {"Player1", "Player2"};
+        String[] playerNames = {"Player1", "Player2"};
 
-        Game game = new Game(n, nrPlayers, players);
+        Player[] playerObjects = new Player[nrPlayers];
+
+        Bag bag = new Bag(n, playerObjects);
+        for (int i = 0; i < nrPlayers; i++) {
+            playerObjects[i] = new Player(playerNames[i], bag, n);
+        }
+
+        Game game = new Game(n, nrPlayers, playerObjects);
         game.start();
 
         try {
@@ -18,7 +22,6 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-
     }
 }
+

@@ -1,26 +1,30 @@
 package org.example;
 
-import java.util.concurrent.BlockingQueue;
+import org.example.TimeKeeper;
 
 public class Game extends Thread {
-    private int n;
-    private int numberOfPlayers;
-    private String[] playerNames;
-    private Bag bag;
+    private final int n;
+    private final int numberOfPlayers;
 
-    public Game(int n, int numberOfPlayers, String[] playerNames) {
+    private Bag bag;
+    private Player[] players;
+    private TimeKeeper timeKeeper;
+
+    public Game(int n, int numberOfPlayers, Player[] players) {
         this.n = n;
         this.numberOfPlayers = numberOfPlayers;
-        this.playerNames = playerNames;
-        this.bag = new Bag(n);
+        this.players = players;
+        this.bag = new Bag(n, players);
+        this.timeKeeper = new TimeKeeper(this);
     }
 
     @Override
     public void run() {
-        Player[] players = new Player[numberOfPlayers];
-        for (int i = 0; i < numberOfPlayers; i++) {
-            players[i] = new Player(playerNames[i], bag, n);
-            players[i].start();
+        timeKeeper.start();
+
+        for (Player player : players) {
+            player.start();
+            System.out.println(player.getPlayerName() + " joined");
         }
 
         for (Player player : players) {
@@ -29,6 +33,16 @@ public class Game extends Thread {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+        }
+    }
+
+    public Player[] getPlayers() {
+        return players;
+    }
+
+    public void interruptPlayers() {
+        for (Player player : players) {
+            player.interrupt();
         }
     }
 }

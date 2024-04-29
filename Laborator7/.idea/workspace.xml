@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54a7cca5-c9a3-4692-b9dd-2bf1a1e25f8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/DocumentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/DocumentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/commands/ExportCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/commands/ExportCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/commands/ReportCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/commands/ReportCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/commands/ViewCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/commands/ViewCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/exceptions/ExceptionsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/exceptions/ExceptionsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/models/Document.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/models/Document.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/models/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laborator5/target/classes/com/company/documents/models/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Bag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Bag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Token.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Facultate 6/JAVA/Laborator6"
+    "last_opened_file_path": "D:/Facultate 6/JAVA/Laborator8"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
