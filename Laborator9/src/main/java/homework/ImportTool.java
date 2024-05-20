@@ -1,4 +1,4 @@
-package org.homework;
+package homework;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -43,7 +43,7 @@ public class ImportTool {
         try (PreparedStatement statement = connection.prepareStatement(sql)) {
             BufferedReader reader = new BufferedReader(new FileReader(filePath));
             String line;
-            reader.readLine();
+            reader.readLine(); // Omiterea antetului din fișier
 
             while ((line = reader.readLine()) != null) {
                 String[] columns = line.split(",");
